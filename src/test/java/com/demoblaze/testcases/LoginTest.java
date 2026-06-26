@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 @Feature("Auth feature")
 public class LoginTest extends BaseTest {
 
-    @Test(groups={"E2E"} , description = "test the login functionality using email and password")
+    @Test(groups={"E2E"} , description = "test the login functionality using email and password ")
     public void shouldBeAbleToLoginWithEmailAndPassword()
     {
         HomePage homePage=new HomePage(driver);
